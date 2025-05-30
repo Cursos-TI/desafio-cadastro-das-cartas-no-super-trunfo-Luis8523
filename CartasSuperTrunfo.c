@@ -48,9 +48,14 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos_turisticos2);
 
-    // Cálculo da densidade populacional e PIB per capita
+    // Cálculo da densidade populacional
+    // Fórmula: densidade populacional = população / área
     densidade_populacional1 = populacao1 / area1;
     densidade_populacional2 = populacao2 / area2;
+
+    // Cálculo do PIB per capita
+    // Fórmula: PIB per capita = PIB / população
+
     pib_por_capita1 = pib1 / populacao1;
     pib_por_capita2 = pib2 / populacao2;
 
